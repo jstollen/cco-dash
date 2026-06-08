@@ -196,7 +196,7 @@ body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Robo
       <div>
         <strong>Jeffrey Stollenwerk</strong> — Sr. Director, Agentforce Marketing GTM<br>
         47 Jeff-led workstreams | CA, US | Direct Reports: 1 FTE<br>
-        <span style="opacity: 0.8; font-size: 10px;">Role Start: Nov 2024 (<span id="jeff-months">7</span> months)</span>
+        <span style="opacity: 0.8; font-size: 10px;">Role Start: Nov 2025 (<span id="jeff-months">7</span> months)</span>
       </div>
     </div>
     <div class="team-member" style="display: flex; align-items: center; gap: 16px;">
@@ -204,7 +204,7 @@ body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Robo
       <div>
         <strong>Denis Hoogweg</strong> — Director, EMEA CCO GTM Ambassador<br>
         11 Denis EMEA-led workstreams | Netherlands | First-ever regional Product Ambassador role<br>
-        <span style="opacity: 0.8; font-size: 10px;">Role Start: Nov 2025 (<span id="denis-months">7</span> months)</span>
+        <span style="opacity: 0.8; font-size: 10px;">Role Start: Feb 2026 (<span id="denis-months">7</span> months)</span>
       </div>
     </div>
   </div>
@@ -1739,13 +1739,13 @@ function init() {
 function calculateRoleMonths() {
   const today = new Date();
 
-  // Jeff's role start: Nov 2024
-  const jeffStart = new Date(2024, 10, 1); // Month is 0-indexed (10 = November)
+  // Jeff's role start: Nov 2025
+  const jeffStart = new Date(2025, 10, 1); // Month is 0-indexed (10 = November)
   const jeffMonths = Math.floor((today - jeffStart) / (1000 * 60 * 60 * 24 * 30.44));
   document.getElementById('jeff-months').textContent = jeffMonths;
 
-  // Denis' role start: Nov 2025
-  const denisStart = new Date(2025, 10, 1); // Month is 0-indexed (10 = November)
+  // Denis' role start: Feb 2026
+  const denisStart = new Date(2026, 1, 1); // Month is 0-indexed (1 = February)
   const denisMonths = Math.max(0, Math.floor((today - denisStart) / (1000 * 60 * 60 * 24 * 30.44)));
   document.getElementById('denis-months').textContent = denisMonths;
 
