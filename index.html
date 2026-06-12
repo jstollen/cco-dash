@@ -3,38 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MC CCO GTM Impact Dashboard — Moved to Salesforce Internal</title>
+<title>Moved to Internal</title>
+<meta http-equiv="refresh" content="5;url=https://git.soma.salesforce.com/pages/jstollenwerk/cco-dash/">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Salesforce Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#F3F3F3;color:#181818;display:flex;justify-content:center;align-items:center;min-height:100vh;padding:20px}
-.card{background:#fff;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.08);max-width:560px;width:100%;padding:48px 40px;text-align:center}
-.logo{width:48px;height:48px;margin:0 auto 24px}
-h1{font-size:22px;color:#032D60;margin-bottom:12px;font-weight:600}
-p{font-size:15px;color:#444;line-height:1.6;margin-bottom:20px}
-.new-url{display:inline-block;background:#EAF5FE;color:#0176D3;padding:10px 20px;border-radius:8px;font-size:14px;font-weight:500;text-decoration:none;word-break:break-all;border:1px solid #D8EDFE;margin-bottom:20px}
-.new-url:hover{background:#D8EDFE}
-.note{font-size:13px;color:#706E6B;background:#FAFAF9;padding:16px;border-radius:8px;border:1px solid #ECEBEA}
-.note strong{color:#032D60}
-.badge{display:inline-block;background:#0176D3;color:#fff;font-size:11px;font-weight:600;padding:4px 10px;border-radius:12px;margin-bottom:16px;letter-spacing:.5px}
+body{min-height:100vh;display:flex;align-items:center;justify-content:center;font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:linear-gradient(135deg,#0d1b3e,#1a3a6b,#2563eb);color:#fff}
+.card{background:rgba(255,255,255,.1);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.2);border-radius:16px;padding:48px;max-width:520px;text-align:center}
+.badge{display:inline-block;background:rgba(255,255,255,.15);border-radius:20px;padding:6px 16px;font-size:12px;text-transform:uppercase;letter-spacing:1px;margin-bottom:20px}
+h1{font-size:24px;margin-bottom:12px}
+p{font-size:15px;opacity:.85;line-height:1.6;margin-bottom:24px}
+.btn{display:inline-block;background:#2563eb;color:#fff;text-decoration:none;padding:12px 32px;border-radius:8px;font-size:15px;font-weight:600}
+.note{margin-top:24px;font-size:13px;opacity:.6}
 </style>
 </head>
 <body>
 <div class="card">
-<svg class="logo" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="24" fill="#0176D3"/><path d="M16 24l5 5 11-11" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-<span class="badge">MOVED</span>
-<h1>MC CCO GTM Impact Dashboard</h1>
-<p>This resource has moved to Salesforce's internal GitHub for security. You'll need <strong>VPN access</strong> to view it.</p>
-<a href="https://mc-cco-gtm.git.soma.salesforce.com/cco-dash/" class="new-url" id="newUrl">
-https://mc-cco-gtm.git.soma.salesforce.com/cco-dash/
-</a>
-<div class="note">
-<strong>🔒 Salesforce Employees:</strong> Connect to VPN first, then click the link above. If you're not a Salesforce employee, this resource is not available externally.
+<div class="badge">Salesforce Internal</div>
+<h1>This tool has moved</h1>
+<p>Now hosted internally for Salesforce employees. VPN required.</p>
+<a href="https://git.soma.salesforce.com/pages/jstollenwerk/cco-dash/" class="btn">Go to Internal Site</a>
+<p class="note">Auto-redirecting in 5 seconds... Requires VPN.</p>
 </div>
-</div>
-<script>
-setTimeout(function(){
-  window.location.href = "https://mc-cco-gtm.git.soma.salesforce.com/cco-dash/";
-}, 3000);
-</script>
+<script>setTimeout(function(){window.location.replace("https://git.soma.salesforce.com/pages/jstollenwerk/cco-dash/")},5000);</script>
 </body>
 </html>
